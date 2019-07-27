@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Coffee_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueCoffeeCup-1" translatesAutoresizingMaskIntoConstraints="NO" id="o53-uX-bT4">
+                                <rect key="frame" x="8" y="44" width="180" height="198"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="c5u-7Y-zjT"/>
+                                    <constraint firstAttribute="height" constant="198" id="q8f-el-OmG"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ek9-m2-B1t">
+                                <rect key="frame" x="68" y="289" width="278" height="82"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="pad-9K-zcy">
+                                        <rect key="frame" x="0.0" y="0.0" width="278" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Milk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg1-wU-dZt">
+                                                <rect key="frame" x="0.0" y="0.0" width="31" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YlI-AA-GeX">
+                                                <rect key="frame" x="73" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgE-R1-LaD">
+                                                <rect key="frame" x="164" y="0.0" width="23" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZJr-O8-EYI">
+                                                <rect key="frame" x="229" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="oWo-x9-nlK">
+                                        <rect key="frame" x="0.0" y="51" width="278" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sugar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bK7-fS-Yz1">
+                                                <rect key="frame" x="0.0" y="0.0" width="44.5" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kvc-4V-4cY">
+                                                <rect key="frame" x="74.5" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Decaf" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXJ-zR-V1t">
+                                                <rect key="frame" x="153.5" y="0.0" width="45.5" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYm-xy-Ep3">
+                                                <rect key="frame" x="229" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="AQm-iA-qyB">
+                                <rect key="frame" x="10" y="372" width="394" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="qL3-fh-0ca"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="582561776.64219797">
+                                    <!--2019-06-18 14:42:56 +0000-->
+                                </date>
+                            </datePicker>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="feL-j5-dTS">
+                                <rect key="frame" x="10" y="602" width="394" height="215"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="0If-Cw-0Bz">
+                                <rect key="frame" x="195.5" y="109" width="208.5" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J Finkels Java Foundation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxo-CR-7ZP">
+                                        <rect key="frame" x="0.0" y="0.0" width="208.5" height="22.5"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                        <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We Do Mobile Orders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6o-gC-7FX">
+                                        <rect key="frame" x="20" y="46.5" width="169" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="bJO-8p-ftv">
+                                <rect key="frame" x="10" y="838" width="364" height="32"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMJ-C8-ksj">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="32"/>
+                                        <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Add A Cup">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btn_AddCup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voU-wt-24E"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvf-hn-S7b">
+                                        <rect key="frame" x="126" y="0.0" width="112" height="32"/>
+                                        <color key="backgroundColor" red="0.38619459972119319" green="0.86296414705643232" blue="0.99193829298019409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Remove A Cup">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btn_RemoveCup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tqu-gj-SkO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgM-cy-uTT">
+                                        <rect key="frame" x="252" y="0.0" width="112" height="32"/>
+                                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Done"/>
+                                        <connections>
+                                            <action selector="btn_Done:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4z-bZ-Adg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkT-JS-TvA">
+                                <rect key="frame" x="0.0" y="573" width="414" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="RlQ-le-fpc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <color key="textColor" red="0.14869791553171488" green="0.089726983196242865" blue="0.96655136346817017" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o53-uX-bT4" firstAttribute="centerY" secondItem="0If-Cw-0Bz" secondAttribute="centerY" id="1us-JA-Bgz"/>
+                            <constraint firstItem="bJO-8p-ftv" firstAttribute="top" secondItem="feL-j5-dTS" secondAttribute="bottom" constant="21" id="2ml-aD-EQ0"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="bJO-8p-ftv" secondAttribute="bottom" constant="-8" id="8Dv-eF-0eb"/>
+                            <constraint firstItem="feL-j5-dTS" firstAttribute="top" secondItem="bkT-JS-TvA" secondAttribute="bottom" constant="8" symbolic="YES" id="8NM-u4-Qjl"/>
+                            <constraint firstItem="o53-uX-bT4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BKU-sB-HRb"/>
+                            <constraint firstItem="Ek9-m2-B1t" firstAttribute="centerX" secondItem="AQm-iA-qyB" secondAttribute="centerX" id="D5W-r0-EN1"/>
+                            <constraint firstItem="Ek9-m2-B1t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="GUC-z0-U1g"/>
+                            <constraint firstItem="o53-uX-bT4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Oss-9C-Nog"/>
+                            <constraint firstItem="AQm-iA-qyB" firstAttribute="leading" secondItem="feL-j5-dTS" secondAttribute="leading" id="Pme-zQ-cLU"/>
+                            <constraint firstItem="0If-Cw-0Bz" firstAttribute="trailing" secondItem="AQm-iA-qyB" secondAttribute="trailing" id="QFn-6Q-LLV"/>
+                            <constraint firstItem="Ek9-m2-B1t" firstAttribute="top" secondItem="o53-uX-bT4" secondAttribute="bottom" constant="18" id="Qdf-pc-g5q"/>
+                            <constraint firstItem="Ek9-m2-B1t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X0O-78-xZs"/>
+                            <constraint firstItem="feL-j5-dTS" firstAttribute="top" secondItem="AQm-iA-qyB" secondAttribute="bottom" constant="15" id="ZIG-3a-bxk"/>
+                            <constraint firstItem="AQm-iA-qyB" firstAttribute="trailing" secondItem="feL-j5-dTS" secondAttribute="trailing" id="ai3-Lt-mhN"/>
+                            <constraint firstItem="AQm-iA-qyB" firstAttribute="top" secondItem="Ek9-m2-B1t" secondAttribute="bottom" constant="30" id="coI-m7-ttI"/>
+                            <constraint firstItem="feL-j5-dTS" firstAttribute="leading" secondItem="bJO-8p-ftv" secondAttribute="leading" id="doG-qv-Qi2"/>
+                            <constraint firstItem="bkT-JS-TvA" firstAttribute="centerX" secondItem="AQm-iA-qyB" secondAttribute="centerX" id="g6u-70-gqi"/>
+                            <constraint firstItem="bkT-JS-TvA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nDh-Kn-UTa"/>
+                            <constraint firstItem="0If-Cw-0Bz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="wVh-jg-BYm"/>
+                            <constraint firstItem="AQm-iA-qyB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="zVj-lM-tdc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cupStack" destination="feL-j5-dTS" id="POT-nQ-zd8"/>
+                        <outlet property="orderLabel" destination="bkT-JS-TvA" id="7UE-F2-BoF"/>
+                        <outlet property="switch_Decaf" destination="nYm-xy-Ep3" id="PuJ-p1-cRa"/>
+                        <outlet property="switch_Ice" destination="ZJr-O8-EYI" id="iU3-OP-hj1"/>
+                        <outlet property="switch_Milk" destination="YlI-AA-GeX" id="TaF-Ke-eJm"/>
+                        <outlet property="switch_Sugar" destination="kvc-4V-4cY" id="Ues-Kr-L73"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blueCoffeeCup-1" width="246" height="269"/>
+    </resources>
+</document>
